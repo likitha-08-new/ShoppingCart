@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="product-list"></div>
+        <div id="cart"></div>
+        <div class="row">
+            <div class="align-left">
+                <div id="total-price">Total Price: $0</div>
+                <div id="average-price">Average Price: $0.00</div>
+            </div>
+            <div class="align-right">
+                <button id="clear-cart">Clear Cart</button>
+            </div>
+        </div>
+        <div class="filter-group">
+            <input type="number" id="filter-price" placeholder="Filter products below price">
+            <button id="filter-products">Filter</button>
+        </div>
+        <div class="button-group">
+            <button id="sort-asc">Sort Ascending</button>
+            <button id="sort-desc">Sort Descending</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
