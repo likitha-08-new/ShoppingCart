@@ -1,5 +1,5 @@
 1. Initialize Application
-   -Initialize an empty cart array
+   Initialize an empty cart array
    Display products on the page
    Display initial cart state
 
